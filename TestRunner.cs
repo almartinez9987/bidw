@@ -89,6 +89,8 @@ namespace SSIS.Test.Template
 
             // execute the package and attach live tests            
             engine.ExecuteLiveTestsWithGui("DEMO", "Main.dtsx");
+            engine.SaveTestResultsAndCoverageAsHtml("c:\\SSISTester.Results.html");
+            
         }
 
         /// <summary>

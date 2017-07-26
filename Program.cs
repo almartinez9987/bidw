@@ -9,12 +9,12 @@ namespace SSIS.Test.Template
         {
             SetTitle();
 
-            TestRunner.RunUnitTests();
+            //TestRunner.RunUnitTests();
             //TestRunner.RunUnitTests2();
             //TestRunner.RunUnitTests3();
 
             // to run live tests, comment the RunUnitTests and uncomment the RunLiveTests
-            //TestRunner.RunLiveTests();
+            TestRunner.RunLiveTests();
             //TestRunner.RunLiveTests2();
             //TestRunner.RunLiveTests3();
             //TestRunner.RunLiveTests4();
