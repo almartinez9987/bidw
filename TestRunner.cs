@@ -88,7 +88,7 @@ namespace SSIS.Test.Template
             engine.SetExecutionParameters(parameters);
 
             // execute the package and attach live tests            
-            engine.ExecuteLiveTestsWithGui("DEMO", "Main.dtsx");
+            //engine.ExecuteLiveTestsWithGui("DEMO", "Main.dtsx");
             engine.SaveTestResultsAndCoverageAsHtml("c:\\SSISTester.Results.html");
             
         }
