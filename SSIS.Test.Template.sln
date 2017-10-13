@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSIS.Test.Template", "SSIS.Test.Template.csproj", "{D9F9941D-2AF3-478B-A0A8-31D19532CEE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9F9941D-2AF3-478B-A0A8-31D19532CEE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F9941D-2AF3-478B-A0A8-31D19532CEE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F9941D-2AF3-478B-A0A8-31D19532CEE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F9941D-2AF3-478B-A0A8-31D19532CEE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
